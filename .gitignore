@@ -1,0 +1,38 @@
+*target*
+!lib/martyr-1.0.jar
+*.war
+*.ear
+*.class
+*.log
+*.d64
+*.iws
+
+.idea/workspace.xml
+.idea/tasks.xml
+
+dependency-reduced-pom.xml
+
+# eclipse specific git ignore
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# Logfiles
+qlink.log.*
